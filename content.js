@@ -58,7 +58,7 @@ return;
                 button.innerHTML = 'Generating...';
                 button.disabled=true;
                 const emailContent=getEmailContent();
-               const response= await fetch('http://localhost:8080/api/email/generate',{
+               const response= await fetch('https://email-ai-reply-generator.onrender.com/api/email/generate',{
                     method:'POST',
                     headers:{
                         'Content-Type' :'application/json'

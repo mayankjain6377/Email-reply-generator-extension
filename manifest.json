@@ -28,7 +28,7 @@
 
   ],
 "host_permissions": [
-    "http://localhost:8080/api/email/generate",
+    "https://email-ai-reply-generator.onrender.com/api/email/generate",
     "https://*/*",
     "*://mail.google.com/*",
     "http://*/*"
